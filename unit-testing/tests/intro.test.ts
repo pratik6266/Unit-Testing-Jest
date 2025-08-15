@@ -3,11 +3,7 @@ import { fizzbuzz, max } from '../src/info';
 
 describe('max', () => {
   it('returns the maximum of two numbers', () => {
-    const a: number = 5;
-    const b: number = 10;
-
-    const result: number = max(a, b);
-    expect(result).toBe(10);
+    expect(max(5, 10)).toBe(10);
   })
 })
 
